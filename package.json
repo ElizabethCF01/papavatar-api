@@ -1,0 +1,26 @@
+{
+  "name": "avatar-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Fastify API with TypeScript",
+  "dependencies": {
+    "fastify": "^5.6.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.6",
+    "@types/node": "^24.9.2",
+    "@types/pino": "^7.0.4",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}

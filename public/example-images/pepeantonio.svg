@@ -1,0 +1,17 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#f0f0f0"/>
+  <ellipse cx="100" cy="60" rx="70" ry="50" fill="hsl(107, 60%, 50%)"/>
+       <path d="M30 60 Q30 120, 40 160 L60 165 Q55 100, 60 60" fill="hsl(107, 60%, 50%)"/>
+       <path d="M170 60 Q170 120, 160 160 L140 165 Q145 100, 140 60" fill="hsl(107, 60%, 50%)"/>
+  <circle cx="100" cy="100" r="80" fill="hsl(214, 50%, 70%)" />
+  <rect x="62" y="75" width="16" height="6" fill="black"/>
+       <rect x="122" y="75" width="16" height="6" fill="black"/>
+  <circle cx="100" cy="105" r="3" fill="black"/>
+  <path d="M70 140 Q100 120, 130 140" stroke="black" stroke-width="4" fill="none"/>
+  <circle cx="70" cy="80" r="15" fill="none" stroke="black" stroke-width="3"/>
+       <circle cx="130" cy="80" r="15" fill="none" stroke="black" stroke-width="3"/>
+       <line x1="85" y1="80" x2="115" y2="80" stroke="black" stroke-width="3"/>
+  <path d="M60 38 Q70 55, 75 60" fill="none" stroke="hsl(107, 60%, 50%)" stroke-width="12" stroke-linecap="round"/>
+       <path d="M90 30 Q95 50, 100 60" fill="none" stroke="hsl(107, 60%, 50%)" stroke-width="12" stroke-linecap="round"/>
+       <path d="M125 36 Q120 55, 115 60" fill="none" stroke="hsl(107, 60%, 50%)" stroke-width="12" stroke-linecap="round"/>
+</svg>
