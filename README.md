@@ -89,6 +89,44 @@ npm run build
 npm start
 ```
 
+## Running Tests
+
+### All Tests
+
+```bash
+npm test
+```
+
+### Watch Mode (re-run tests on file changes)
+
+```bash
+npm run test:watch
+```
+
+### Smoke Tests Only
+
+```bash
+npm run test:smoke
+```
+
+### Unit Tests Only
+
+```bash
+npm run test:unit
+```
+
+### Integration Tests Only
+
+```bash
+npm run test:integration
+```
+
+### Coverage Report
+
+```bash
+npm run test:coverage
+```
+
 ## Tech Stack
 
 - Fastify - Fast web framework
