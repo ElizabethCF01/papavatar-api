@@ -1,5 +1,5 @@
 import crypto from "crypto";
-import type { AvatarFeatures } from "../types/avatar.js";
+import type { AvatarFeatures } from "./avatar.types.js";
 
 function hashToNumber(hash: string, start: number, length: number): number {
   const slice = hash.slice(start, start + length);

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { config } from '../../config/config.js';
+import { config } from './config/config.js';
 
 describe('Index Module - Smoke Test', () => {
   it('should have valid configuration for server startup', () => {

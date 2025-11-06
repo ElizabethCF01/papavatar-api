@@ -9,9 +9,9 @@
     "start": "node dist/index.js",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:smoke": "vitest run src/test/smoke",
-    "test:unit": "vitest run src/test/unit",
-    "test:integration": "vitest run src/test/integration",
+    "test:smoke": "vitest run -t \"Smoke Test\"",
+    "test:unit": "vitest run -t \"Unit Test\"",
+    "test:integration": "vitest run -t \"Integration Test\"",
     "test:coverage": "vitest run --coverage"
   },
   "keywords": [],

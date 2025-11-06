@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import type { AvatarOptions, AvatarFeatures } from '../../types/avatar.js';
+import type { AvatarOptions, AvatarFeatures } from '../avatar.types.js';
 
 describe('Types - Smoke Test', () => {
   it('should allow valid AvatarOptions', () => {
