@@ -1,5 +1,5 @@
 import Fastify, { FastifyInstance } from 'fastify';
-import avatarRoutes from '../../routes/avatar.js';
+import { avatarRoutes } from '../../modules/avatar/index.js';
 
 export async function buildApp(): Promise<FastifyInstance> {
   const app = Fastify({

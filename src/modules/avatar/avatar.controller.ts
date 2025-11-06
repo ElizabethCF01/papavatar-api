@@ -1,5 +1,5 @@
 import { FastifyInstance } from "fastify";
-import { AvatarGenerator } from "../services/avatarGenerator.js";
+import { AvatarGenerator } from "./avatar.service.js";
 
 interface AvatarParams {
   identifier: string;

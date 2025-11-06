@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { config } from '../../config/config.js';
+import { config } from './config.js';
 
 describe('Config - Smoke Test', () => {
   it('should export config object', () => {

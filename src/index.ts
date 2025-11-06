@@ -1,6 +1,6 @@
 import Fastify from "fastify";
 import { config } from "./config/config.js";
-import avatarRoutes from "./routes/avatar.js";
+import { avatarRoutes } from "./modules/avatar/index.js";
 
 const fastify = Fastify({
   logger: {

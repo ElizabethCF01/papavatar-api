@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { AvatarGenerator, generateFaceSVG } from '../../services/avatarGenerator.js';
+import { AvatarGenerator, generateFaceSVG } from '../avatar.service.js';
 
 describe('AvatarGenerator - Smoke Test', () => {
   it('should create an instance', () => {

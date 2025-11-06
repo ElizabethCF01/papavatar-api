@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
 import { FastifyInstance } from "fastify";
-import { buildApp } from "../helpers/app.js";
+import { buildApp } from "../../../__tests__/helpers/app.js";
 
 describe("Avatar API - Comprehensive Integration Tests", () => {
   let app: FastifyInstance;

@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import Fastify from 'fastify';
-import avatarRoutes from '../../routes/avatar.js';
+import avatarRoutes from '../avatar.controller.js';
 
 describe('Avatar Routes - Smoke Test', () => {
   it('should be a function', () => {

@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { AvatarGenerator, generateFaceSVG } from '../../services/avatarGenerator.js';
+import { AvatarGenerator, generateFaceSVG } from '../avatar.service.js';
 
 describe('AvatarGenerator - Comprehensive Unit Tests', () => {
   describe('Constructor and Initialization', () => {
